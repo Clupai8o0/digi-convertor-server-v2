@@ -5,7 +5,7 @@ class Convertor:
 
     for i in range(len(binary_num)):
       digit = binary_num.pop()
-      
+        
       if digit == "1":
         value = value + pow(2,i)
 

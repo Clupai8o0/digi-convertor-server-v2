@@ -39,7 +39,7 @@ def convert(fromType, toType, value):
 
 	response = jsonify({})
 
-	if value:
+	if value != None:
 		response = jsonify({
 			"value": value,
 			"msg": f"{fromType} type successfully converted to {toType} type"
